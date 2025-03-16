@@ -16,7 +16,7 @@ const Heropic = () => {
         src="./images/profileimg2.png"
         alt="soumik ghatak"
       />
-      <div className="absolute -z-10 flex justify-center items-center animate-pulse">
+      <div className="absolute overflow-hidden -z-10 flex justify-center items-center animate-pulse">
         <TbCircleDashed className="min-h-[600px] h-[120%] md:h-[90%] w-auto text-cyan-600 blur-md animate-[spin_20s_linear_infinite]" />
       </div>
     </motion.div>
