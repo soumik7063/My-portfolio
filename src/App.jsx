@@ -12,7 +12,7 @@ import FooterMain from './components/footerSection/FooterMain';
 function App() {
 
   return (
-    <>
+    <main className=" text-white relative overflow-hidden">
       <Navbar/>
       <HeroMain/>
       <HeroGradient/>
@@ -24,7 +24,7 @@ function App() {
       <ContactMain/>
       <FooterMain/>
       <ToastContainer/>
-    </>
+    </main>
   )
 }
 
