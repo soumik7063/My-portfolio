@@ -8,6 +8,7 @@ import SkillMain from './components/skillsection/SkillsMain'
 import SubskillSection from './components/skillsection/SubskillSection'
 import ProjectMain from './components/projectsSection/ProjectMain'
 import ContactMain from './components/ContactSection/ContactMain'
+import FooterMain from './components/footerSection/FooterMain';
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
       <SubskillSection/>
       <ProjectMain/>
       <ContactMain/>
+      <FooterMain/>
       <ToastContainer/>
     </>
   )

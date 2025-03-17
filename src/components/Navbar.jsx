@@ -15,7 +15,7 @@ const Navbar = () => {
         setMenuopen((prev) => !prev);
     }
   return (
-    <nav className="max-w-[1300px] mx-auto px-4 fixed w-full left-[50%] mt-2 flex gap-4 z-20 -translate-x-[50%]">
+    <nav className="max-w-[1200px] mx-auto px-4 fixed w-full left-[50%] mt-2 flex gap-4 z-20 -translate-x-[50%]">
       <div className="bg-purple mx-auto max-w-[1200px] flex items-center justify-between rounded-r-full rounded-l-full w-full p-4 border-[0.5px] border-orange-400">
         <div>
             <h1 className="text-2xl text-white hidden lg:block">Soumik Ghatak</h1>
@@ -42,7 +42,12 @@ const Navbar = () => {
                 {
                     links.map((link,index)=>{
                         return <li key={index} className="group">
-                            <a className="hover:text-cyan-400 transition-all duration-500"  href="">{link.links}</a>
+                            <Link
+                            to={link.section}
+                            smooth={true}
+                            spy={true}
+                            offset={-130}
+                            className="hover:text-cyan-400 transition-all duration-500"  href="">{link.links}</Link>
                             <div className="mx-auto bg-cyan-400 w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
                         </li>
                         
