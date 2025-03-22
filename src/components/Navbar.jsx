@@ -56,7 +56,9 @@ const Navbar = () => {
             </ul>
         </div>
         <div>
-            <button className=" bg-gradient-to-r from-cyan-400 to-orange-400 px-4 py-2 border font-bold text-xl rounded-2xl cursor-pointer flex items-center hover:scale-110 transition-all duration-500 hover:shadow-[0px_0px_10px_cyan]">Hire me <LuArrowDownRight /></button>
+            <button
+            onClick={() => window.location.href = "mailto:ghataksoumik7063@gmail.com"}
+            className=" bg-gradient-to-r from-cyan-400 to-orange-400 px-4 py-2 border font-bold text-xl rounded-2xl cursor-pointer flex items-center hover:scale-110 transition-all duration-500 hover:shadow-[0px_0px_10px_cyan]">Hire me <LuArrowDownRight /></button>
         </div>
       </div>
       <div>

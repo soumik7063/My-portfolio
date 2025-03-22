@@ -50,6 +50,7 @@ const Skillall = () => {
       {skills.map((skill, index) => {
         return (
           <motion.div
+            key={index}
             variants={fadeIn("up", `0.${index}`)}
             initial="hidden"
             whileInView="show"
