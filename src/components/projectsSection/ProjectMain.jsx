@@ -9,7 +9,7 @@ const ProjectMain = () => {
             year:'2023',
             tech:'HTML,CSS, JS',
             align:'left',
-            link:'#',
+            link:'https://soumik7063.github.io/Tic-tac-toe/',
             image:'/images/website-img-1.jpg'
         },
         {
@@ -17,7 +17,7 @@ const ProjectMain = () => {
             year:'2023',
             tech:'HTML,CSS, JS',
             align:'right',
-            link:'#',
+            link:'https://github.com/soumik7063/chessy-chess',
             image:'../../public/images/website-img-1.jpg'
         },
         {
@@ -25,7 +25,7 @@ const ProjectMain = () => {
             year:'2024',
             tech:'React JS',
             align:'left',
-            link:'#',
+            link:'https://manage-yoru-employee.vercel.app/',
             image:'/images/website-img-1.jpg'
         },
         {
@@ -33,7 +33,7 @@ const ProjectMain = () => {
             year:'2024',
             tech:'React JS , Framer Motion',
             align:'right',
-            link:'#',
+            link:'https://my-portfolio-beta-six-66.vercel.app/',
             image:'/images/website-img-1.jpg'
         },
         {
@@ -41,7 +41,7 @@ const ProjectMain = () => {
             year:'2024',
             tech:'React JS , MongoDB,Node',
             align:'left',
-            link:'#',
+            link:'https://github.com/soumik7063/Mern-Authentication-App',
             image:'/images/website-img-1.jpg'
         }
     ]
