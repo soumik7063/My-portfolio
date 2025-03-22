@@ -14,7 +14,10 @@ const SIngleProject = ({name,year,align,tech,link, image}) => {
             <h2 className='text-2xl md:text-3xl text-yellow-600 '>{name}</h2>
             <h2 className={`text-2xl font-thin text-white text-center ${align === 'left'?'md:text-right':'md:text-left'}`}>{year}</h2>
             <h2 className={`text-xl font text-cyan-500 text-center ${align === 'left'?'md:text-right':'md:text-left'}`}>{tech}</h2>
-            <a href={link} className={`flex gap-1 justify-center text-xl ${align === 'left'?'md:justify-self-end':'md:justify-self-start'} cursor-pointer items-center text-white bg-black rounded-xl py-1 px-3`}> 
+            <a href={link} 
+            target='_blank'
+            rel='noopener noreferrer'
+            className={`flex gap-1 justify-center text-xl ${align === 'left'?'md:justify-self-end':'md:justify-self-start'} cursor-pointer items-center text-white bg-black rounded-xl py-1 px-3`}> 
                 view <BiSolidRightTopArrowCircle />
             </a>
         </div>

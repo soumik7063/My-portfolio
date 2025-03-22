@@ -31,7 +31,7 @@ const Navbar = () => {
                             smooth={true}
                             spy={true}
                             offset={-130}
-                            className="hover:text-cyan-400 transition-all duration-500">{link.links}</Link>
+                            className="hover:text-cyan-400 transition-all duration-500 cursor-pointer">{link.links}</Link>
                             <div className="mx-auto bg-cyan-400 w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
                         </li>
                         
