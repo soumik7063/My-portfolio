@@ -5,6 +5,14 @@ const ProjectMain = () => {
 
     const projects = [
         {
+            name:'Algotracks',
+            year:'2025',
+            tech:'React JS,Express,Node,MongoDB,Tailwind,Framer motion,Gemini',
+            align:'right',
+            link:'https://soumik7063.github.io/Tic-tac-toe/',
+            image:'/images/website-img-1.jpg'
+        },
+        {
             name:'Tic-Tac-Toe',
             year:'2023',
             tech:'HTML,CSS, JS',

@@ -6,9 +6,9 @@ import SingleSocialcontact from './SingleSocialcontact';
 const SocialContact = () => {
   return (
     <div className="flex mt-5 justify-between">
-        <SingleSocialcontact link={'#'} Icon = {<LuGithub/>}/>
-        <SingleSocialcontact link={'#'} Icon = {<CiLinkedin/>}/>
-        <SingleSocialcontact link={'#'} Icon = {<FaInstagram/>}/>
+        <SingleSocialcontact name="github" link={'http://github.com/soumik7063/'} Icon = {<LuGithub/>}/>
+        <SingleSocialcontact name="linkedin" link={'#'} Icon = {<CiLinkedin/>}/>
+        <SingleSocialcontact name="instagram" link={'#'} Icon = {<FaInstagram/>}/>
     </div>
   )
 }
