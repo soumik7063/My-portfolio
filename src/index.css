@@ -3,8 +3,8 @@
 @import "tailwindcss";
 @theme {
   --color-brown: #53423e;
-  --color-lightbrown: #645550;
-  --color-purple: #140d52;
+  --color-lightbrown: #050a2f ;
+  --color-purple: #140d32;
   --color-lightpurple: #5a4bda;
 
   --default-font-family:'josefin sans';
@@ -20,5 +20,5 @@
 }
 body{
   font-family:'josefin Sans';
-  background-color: #53423e;
+  background-color: #050a1f;
 }

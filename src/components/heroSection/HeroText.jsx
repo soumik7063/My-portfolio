@@ -9,7 +9,7 @@ const HeroText = () => {
         initial='hidden'
         whileInView='show'
         viewport={{once:false,amount:0}}
-        className='lg:text-2xl text-xl  uppercase text-cyan-500'>Mern Stack developer</motion.h2>
+        className='lg:text-2xl text-xl  uppercase text-cyan-500'>Mern Stack developer & AI-ML Enthusiast</motion.h2>
         <motion.h1 
         variants={fadeIn('right',0.2)}
         initial='hidden'

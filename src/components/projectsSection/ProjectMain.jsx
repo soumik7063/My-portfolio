@@ -26,7 +26,7 @@ const ProjectMain = () => {
             tech:'HTML,CSS, JS',
             align:'right',
             link:'https://github.com/soumik7063/chessy-chess',
-            image:'../../public/images/website-img-1.jpg'
+            image:'../../images/website-img-1.jpg'
         },
         {
             name:'Employee Management System',
