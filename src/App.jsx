@@ -7,6 +7,7 @@ import AboutmeMain from './components/AboutmeSection/AboutmeMain'
 import SkillMain from './components/skillsection/SkillsMain'
 import SubskillSection from './components/skillsection/SubskillSection'
 import ProjectMain from './components/projectsSection/ProjectMain'
+import CPmain from './components/competitiveProgramming/CPmain';
 import ContactMain from './components/ContactSection/ContactMain'
 import FooterMain from './components/footerSection/FooterMain';
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <SkillMain/>
       <SubskillSection/>
       <ProjectMain/>
+      <CPmain/>
       <ContactMain/>
       <FooterMain/>
       <ToastContainer/>

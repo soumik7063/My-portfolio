@@ -7,42 +7,26 @@ const ProjectMain = () => {
         {
             name:'Algotracks',
             year:'2025',
-            tech:'React JS,Express,Node,MongoDB,Tailwind,Framer motion,Gemini',
+            tech:'React JS,Express, Node,MongoDB, Nodemailer, Tailwind, Framer motion, Gemini',
             align:'right',
-            link:'https://soumik7063.github.io/Tic-tac-toe/',
-            image:'/images/website-img-1.jpg'
+            link:'https://algotracks-frontend-1.onrender.com/',
+            image:'/images/algotracks.png'
         },
         {
-            name:'Tic-Tac-Toe',
-            year:'2023',
-            tech:'HTML,CSS, JS',
+            name:'EV Dashboard',
+            year:'2025',
+            tech:'React JS,chart js, tailwind,framer motion',
             align:'left',
-            link:'https://soumik7063.github.io/Tic-tac-toe/',
-            image:'/images/website-img-1.jpg'
-        },
-        {
-            name:'Chessy-chess',
-            year:'2023',
-            tech:'HTML,CSS, JS',
-            align:'right',
-            link:'https://github.com/soumik7063/chessy-chess',
-            image:'../../images/website-img-1.jpg'
+            link:'https://ev-dashboard-5swz.vercel.app/',
+            image:'/images/evdashboard.png'
         },
         {
             name:'Employee Management System',
             year:'2024',
             tech:'React JS',
-            align:'left',
-            link:'https://manage-yoru-employee.vercel.app/',
-            image:'/images/website-img-1.jpg'
-        },
-        {
-            name:'PortFolio',
-            year:'2024',
-            tech:'React JS , Framer Motion',
             align:'right',
-            link:'https://my-portfolio-beta-six-66.vercel.app/',
-            image:'/images/website-img-1.jpg'
+            link:'https://manage-yoru-employee.vercel.app/',
+            image:'/images/employeemanagement.jpg'
         },
         {
             name:'Mern Auth App',
@@ -51,7 +35,24 @@ const ProjectMain = () => {
             align:'left',
             link:'https://github.com/soumik7063/Mern-Authentication-App',
             image:'/images/website-img-1.jpg'
-        }
+        },
+        {
+            name:'Chessy-chess',
+            year:'2023',
+            tech:'HTML,CSS, JS,chess engine',
+            align:'right',
+            link:'https://github.com/soumik7063/chessy-chess',
+            image:'/images/chess.jpg'
+        },
+        {
+            name:'PortFolio',
+            year:'2024',
+            tech:'React JS , Framer Motion , tailwind CSS',
+            align:'left',
+            link:'https://my-portfolio-beta-six-66.vercel.app/',
+            image:'/images/portfolio.png'
+        },
+        
     ]
   return (
     <div id='projects' className='max-w-[1200px] mx-auto px-3'>

@@ -12,7 +12,7 @@ const Heropic = () => {
       className="flex h-full items-center justify-center"
     >
       <img
-        className="max-h-[450px] w-auto"
+        className="max-h-[450px] md:max-h-[1000px] w-auto"
         src="./images/profileimg2.png"
         alt="soumik ghatak"
       />

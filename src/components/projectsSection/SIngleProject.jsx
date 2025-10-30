@@ -22,7 +22,7 @@ const SIngleProject = ({name,year,align,tech,link, image}) => {
             </a>
         </div>
         <div className='max-h-[220px] max-w-[400px] rounded-xl overflow-hidden scale-110 '>
-            <div className='w-full h-full bg-cyan-200 opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500'></div>
+            <div className='w-full h-full absolute top-0 left-0'></div>
             <img src={image} alt="" />
         </div>
     </motion.div>

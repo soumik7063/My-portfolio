@@ -21,7 +21,7 @@ const HeroText = () => {
         initial='hidden'
         whileInView='show'
         viewport={{once:false,amount:0}}
-        className='text-lg mt-4 text-white'>A passionate Mern Stack Developer and instructor <br/> with 1yr experience</motion.p>
+        className='text-lg mt-4 text-white text-start'>3rd Year BTech Student in Information Technology at Jalpaiguri Government Engineering College.Passionate about building scalable web applications and solving complex algorithmic problems.</motion.p>
     </div>
   )
 }
