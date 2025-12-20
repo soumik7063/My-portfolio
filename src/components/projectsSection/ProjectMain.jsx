@@ -13,10 +13,18 @@ const ProjectMain = () => {
             image:'/images/algotracks.png'
         },
         {
+            name:'College GYM website',
+            year:'2025',
+            tech:'React JS,Express, Node,MongoDB, Tailwind, Framer motion',
+            align:'left',
+            link:'https://jgec-gym-bros.vercel.app/',
+            image:'/images/gym.png'
+        },
+        {
             name:'EV Dashboard',
             year:'2025',
             tech:'React JS,chart js, tailwind,framer motion',
-            align:'left',
+            align:'right',
             link:'https://ev-dashboard-5swz.vercel.app/',
             image:'/images/evdashboard.png'
         },
@@ -24,7 +32,7 @@ const ProjectMain = () => {
             name:'Employee Management System',
             year:'2024',
             tech:'React JS',
-            align:'right',
+            align:'left',
             link:'https://manage-yoru-employee.vercel.app/',
             image:'/images/employeemanagement.jpg'
         },
@@ -32,7 +40,7 @@ const ProjectMain = () => {
             name:'Mern Auth App',
             year:'2024',
             tech:'React JS , MongoDB,Node',
-            align:'left',
+            align:'right',
             link:'https://github.com/soumik7063/Mern-Authentication-App',
             image:'/images/website-img-1.jpg'
         },
@@ -40,7 +48,7 @@ const ProjectMain = () => {
             name:'Chessy-chess',
             year:'2023',
             tech:'HTML,CSS, JS,chess engine',
-            align:'right',
+            align:'left',
             link:'https://github.com/soumik7063/chessy-chess',
             image:'/images/chess.jpg'
         },
@@ -48,7 +56,7 @@ const ProjectMain = () => {
             name:'PortFolio',
             year:'2024',
             tech:'React JS , Framer Motion , tailwind CSS',
-            align:'left',
+            align:'right',
             link:'https://my-portfolio-beta-six-66.vercel.app/',
             image:'/images/portfolio.png'
         },
