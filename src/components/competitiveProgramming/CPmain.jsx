@@ -18,7 +18,7 @@ const CPmain = () => {
             rating="1600+"
             problems="500+"
             achievements= "100+ days streak"
-            maxRating="1665"
+            maxRating="1720"
             bestRank=""
             contests="20"
             externalUrl="https://leetcode.com/u/soumik7063/"
