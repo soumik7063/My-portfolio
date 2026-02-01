@@ -1,7 +1,7 @@
 import { FaDocker ,FaJs, FaAws , FaGitAlt ,FaReact ,FaNodeJs} from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { RiTailwindCssFill ,RiNextjsFill , RiGeminiFill} from "react-icons/ri";
-import { SiExpress ,SiTypescript , SiClerk} from "react-icons/si";
+import { SiExpress ,SiTypescript , SiClerk ,SiLangchain} from "react-icons/si";
 import LogoLoop from "../../common/LogoLoop";
 const techLogos = [
   {
@@ -23,6 +23,11 @@ const techLogos = [
     node: <FaJs className="text-yellow-400" />,
     title: "JavaScript",
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    node: <SiLangchain className="text-white" />,
+    title: "LangChain",
+    href: "https://nextjs.org",
   },
   {
     node: <RiTailwindCssFill className="text-cyan-400" />,

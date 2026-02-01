@@ -5,25 +5,25 @@ import { fadeIn } from "../../framerMotion/variants";
 const SIngleProject = ({name,year,align,tech,link, image}) => {
   return (
     <motion.div
-    variants={fadeIn(`${align}`, 0.3)}
+    variants={fadeIn(`${align%2 !== 0 ?"right":"left"}`, 0.3)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0 }}
-     className={`w-full flex flex-col-reverse items-center gap-8 ${align === 'left' ?'md:flex-row' :'md:flex-row-reverse'} justify-end`}>
+     className={`w-full flex flex-col-reverse items-center gap-8 ${align%2 !== 0 ?'md:flex-row' :'md:flex-row-reverse'} justify-end`}>
         <div>
-            <h2 className='text-2xl md:text-3xl text-yellow-600 '>{name}</h2>
-            <h2 className={`text-2xl font-thin text-white text-center ${align === 'left'?'md:text-right':'md:text-left'}`}>{year}</h2>
-            <h2 className={`text-xl font text-cyan-500 text-center ${align === 'left'?'md:text-right':'md:text-left'}`}>{tech}</h2>
+            <h2 className={`text-2xl md:text-3xl text-yellow-600 ${align%2 !== 0?'md:text-right':'md:text-left'}`}>{name}</h2>
+            <h2 className={`text-2xl font-thin text-white text-center ${align%2 !== 0?'md:text-right':'md:text-left'}`}>{year}</h2>
+            <h2 className={`text-xl font text-cyan-500 text-center ${align%2 !== 0?'md:text-right':'md:text-left'}`}>{tech}</h2>
             <a href={link} 
             target='_blank'
             rel='noopener noreferrer'
-            className={`flex gap-1 justify-center text-xl ${align === 'left'?'md:justify-self-end':'md:justify-self-start'} cursor-pointer items-center text-white bg-black rounded-xl py-1 px-3`}> 
+            className={`flex gap-1 justify-center text-xl ${align%2 !== 0?'md:justify-self-end':'md:justify-self-start'} cursor-pointer items-center text-white bg-black rounded-xl py-1 px-3`}> 
                 view <BiSolidRightTopArrowCircle />
             </a>
         </div>
         <div className='max-h-[220px] max-w-[400px] rounded-xl overflow-hidden scale-110 '>
             <div className='w-full h-full absolute top-0 left-0'></div>
-            <img src={image} alt="" />
+            <img className='border-2 border-cyan-500' src={image} alt="" />
         </div>
     </motion.div>
   )

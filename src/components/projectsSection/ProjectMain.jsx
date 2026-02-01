@@ -8,15 +8,20 @@ const ProjectMain = () => {
             name:'Algotracks',
             year:'2025',
             tech:'React JS,Express, Node,MongoDB, Nodemailer, Tailwind, Framer motion, Gemini',
-            align:'right',
             link:'https://algotracks-frontend-1.onrender.com/',
             image:'/images/algotracks.png'
+        },
+        {
+            name:'Quick Digest',
+            year:'2026',
+            tech:'Next JS, Clerk, Stripe, PostgressSQL, Gemini, LangChain, TS, React, Tailwind',
+            link:'https://quick-digest-ulqw.vercel.app/',
+            image:'/images/quick-digest.png'
         },
         {
             name:'College GYM website',
             year:'2025',
             tech:'React JS,Express, Node,MongoDB, Tailwind, Framer motion',
-            align:'left',
             link:'https://jgec-gym-bros.vercel.app/',
             image:'/images/gym.png'
         },
@@ -24,7 +29,6 @@ const ProjectMain = () => {
             name:'EV Dashboard',
             year:'2025',
             tech:'React JS,chart js, tailwind,framer motion',
-            align:'right',
             link:'https://ev-dashboard-5swz.vercel.app/',
             image:'/images/evdashboard.png'
         },
@@ -32,23 +36,13 @@ const ProjectMain = () => {
             name:'Employee Management System',
             year:'2024',
             tech:'React JS',
-            align:'left',
             link:'https://manage-yoru-employee.vercel.app/',
             image:'/images/employeemanagement.jpg'
-        },
-        {
-            name:'Mern Auth App',
-            year:'2024',
-            tech:'React JS , MongoDB,Node',
-            align:'right',
-            link:'https://github.com/soumik7063/Mern-Authentication-App',
-            image:'/images/website-img-1.jpg'
         },
         {
             name:'Chessy-chess',
             year:'2023',
             tech:'HTML,CSS, JS,chess engine',
-            align:'left',
             link:'https://github.com/soumik7063/chessy-chess',
             image:'/images/chess.jpg'
         },
@@ -56,7 +50,6 @@ const ProjectMain = () => {
             name:'PortFolio',
             year:'2024',
             tech:'React JS , Framer Motion , tailwind CSS',
-            align:'right',
             link:'https://my-portfolio-beta-six-66.vercel.app/',
             image:'/images/portfolio.png'
         },
@@ -69,7 +62,7 @@ const ProjectMain = () => {
             {
                 projects.map((e,index)=>{
                     return <div key={index}>
-                        <SIngleProject name={e.name} year= {e.year} tech={e.tech} align = {e.align} link = {e.link} image = {e.image}/>
+                        <SIngleProject name={e.name} year= {e.year} tech={e.tech} align = {index} link = {e.link} image = {e.image}/>
                     </div>
                  })
             }

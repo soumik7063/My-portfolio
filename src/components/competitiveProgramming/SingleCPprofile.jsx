@@ -74,7 +74,7 @@ const SingleCPprofile = ({logo,platform,badge,rating,problems,achievements,maxRa
             Best Rank: <span className="font-semibold text-sky-300">{bestRank}</span>
           </div>
         )}
-        {typeof contests !== "undefined" && (
+        {contests && (
           <div>
             Contests: <span className="font-semibold text-sky-300">{contests}+</span>
           </div>

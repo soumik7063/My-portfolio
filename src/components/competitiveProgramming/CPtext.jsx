@@ -8,7 +8,7 @@ const CPtext = () => {
           whileInView="show"
           viewport={{ once: false, amount: 0 }}
      className='flex flex-col justify-center items-center mt-[100px]'>
-        <h2 className='text-cyan-600 text-5xl mb-10'>
+        <h2 className='text-cyan-600 text-5xl mb-10 text-center'>
             Competitive Programming
         </h2>
         <p className='text-white text-lg text-center'>My journey in competitive programming with 800+ problems solved across multiple platforms </p>
