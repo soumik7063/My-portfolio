@@ -12,7 +12,7 @@ const Skilltext = () => {
         <h2 className='text-cyan-600 text-5xl mb-10'>
             My Skills
         </h2>
-        <p className='text-white text-lg text-center'>I am not only work this these technologies but excellent in using them with best practices to deliver high-quality result , I have been wokring with all these to build my portfolio website </p>
+        <p className='text-gray-400 text-lg text-center'>I am not only work this these technologies but excellent in using them with best practices to deliver high-quality result , I have been wokring with all these to build my portfolio website </p>
     </motion.div>
   )
 }

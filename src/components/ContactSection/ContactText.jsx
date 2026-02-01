@@ -12,7 +12,7 @@ const ContactText = () => {
       className="flex flex-col w-full"
     >
       <h1 className="text-3xl text-yellow-500 mb-4">Get in Touch</h1>
-      <p className="text-white">
+      <p className="text-gray-400">
         Fell free to reach out if you'd like to collaborate <br />
         You are just few clicks away
       </p>

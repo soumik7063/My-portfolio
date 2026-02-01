@@ -12,7 +12,7 @@ const ProjectText = () => {
         <h2 className='text-cyan-400 text-5xl mb-10'>
             Projects
         </h2>
-        <p className='text-lg text-white text-center px-3'>
+        <p className='text-lg text-gray-400 text-center px-3'>
             I have worked on a variety of web development project , ranging from responsive website from basic to comples interface as well as logic
         </p>
     </motion.div>

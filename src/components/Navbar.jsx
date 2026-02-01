@@ -19,11 +19,11 @@ const Navbar = () => {
     <nav className="max-w-[1200px] mx-auto px-4 fixed w-full left-[50%] mt-2 flex gap-4 z-20 -translate-x-[50%]">
       <div className="bg-purple mr-5 sm:mr-0 mx-auto max-w-[1200px] flex items-center justify-between rounded-r-full rounded-l-full w-full p-2 sm:p-4 border-[0.5px] border-orange-400">
         <div>
-          <h1 className="text-2xl text-white hidden lg:block">Soumik Ghatak</h1>
+          <h1 className="text-2xl text-gray-300 hidden lg:block">Soumik Ghatak</h1>
           <h1 className="text-2xl text-white font-extrabold lg:hidden">SG</h1>
         </div>
         <div>
-          <ul className="hidden lg:flex gap-4 text-white font-semibold text-md">
+          <ul className="hidden lg:flex gap-4 text-gray-300 font-semibold text-md">
             {links.map((link, index) => {
               return (
                 <li key={index} className="group">
@@ -70,7 +70,7 @@ const Navbar = () => {
             onClick={() =>
               (window.location.href = "mailto:ghataksoumik7063@gmail.com")
             }
-            className=" bg-gradient-to-r from-cyan-400 to-orange-400 px-4 py-2 border font-bold text-md sm:text-xl rounded-2xl cursor-pointer flex items-center hover:scale-110 transition-all ease-in-out duration-500 hover:shadow-[0px_0px_10px_cyan]"
+            className=" text-neutral-950 bg-gradient-to-r from-cyan-400 to-orange-400 px-4 py-2 border font-bold text-md sm:text-xl rounded-2xl cursor-pointer flex items-center hover:scale-110 transition-all ease-in-out duration-500 hover:shadow-[0px_0px_10px_cyan]"
           >
             Hire me <LuArrowDownRight />
           </button>

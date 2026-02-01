@@ -13,7 +13,7 @@ import FooterMain from './components/footerSection/FooterMain';
 function App() {
 
   return (
-    <main className=" text-white relative overflow-hidden">
+    <main className=" text-gray-300 relative overflow-hidden">
       <Navbar/>
       <HeroMain/>
       <HeroGradient/>

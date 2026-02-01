@@ -42,7 +42,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4 text-white text-start"
+        className="text-lg mt-4 text-gray-400 text-start"
       >
         3rd Year BTech Student in Information Technology at Jalpaiguri
         Government Engineering College.Passionate about building scalable web
