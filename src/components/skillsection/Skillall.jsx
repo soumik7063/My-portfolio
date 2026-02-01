@@ -75,7 +75,6 @@ const techLogos = [
     href: "https://clerk.com",
   },
 ];
-
 const Skillall = () => {
   return (
     <div className="flex justify-center items-center w-full mt-10">

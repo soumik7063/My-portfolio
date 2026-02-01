@@ -1,8 +1,7 @@
 import React from "react";
 import CPtext from "./CPtext";
 import SingleCPprofile from "./SingleCPprofile";
-import { SiCodechef } from "react-icons/si";
-import { SiLeetcode,SiCodeforces } from "react-icons/si";
+import { SiCodechef, SiCodeforces, SiLeetcode } from "react-icons/si";
 const CPaccount = [
   {
     logo: <SiLeetcode className="h-10 w-10 text-orange-400" />,

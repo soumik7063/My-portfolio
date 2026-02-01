@@ -1,0 +1,51 @@
+export const projects = [
+  {
+    name: "Algotracks",
+    year: "2025",
+    tech: "React JS,Express, Node,MongoDB, Nodemailer, Tailwind, Framer motion, Gemini",
+    link: "https://algotracks-frontend-1.onrender.com/",
+    image: "/images/algotracks.png",
+  },
+  {
+    name: "Quick Digest",
+    year: "2026",
+    tech: "Next JS, Clerk, Stripe, PostgressSQL, Gemini, LangChain, TS, React, Tailwind",
+    link: "https://quick-digest-ulqw.vercel.app/",
+    image: "/images/quick-digest.png",
+  },
+  {
+    name: "College GYM website",
+    year: "2025",
+    tech: "React JS,Express, Node,MongoDB, Tailwind, Framer motion",
+    link: "https://jgec-gym-bros.vercel.app/",
+    image: "/images/gym.png",
+  },
+  {
+    name: "EV Dashboard",
+    year: "2025",
+    tech: "React JS,chart js, tailwind,framer motion",
+    link: "https://ev-dashboard-5swz.vercel.app/",
+    image: "/images/evdashboard.png",
+  },
+  {
+    name: "Employee Management System",
+    year: "2024",
+    tech: "React JS",
+    link: "https://manage-yoru-employee.vercel.app/",
+    image: "/images/employeemanagement.jpg",
+  },
+  {
+    name: "Chessy-chess",
+    year: "2023",
+    tech: "HTML,CSS, JS,chess engine",
+    link: "https://github.com/soumik7063/chessy-chess",
+    image: "/images/chess.jpg",
+  },
+  {
+    name: "PortFolio",
+    year: "2024",
+    tech: "React JS , Framer Motion , tailwind CSS",
+    link: "https://my-portfolio-beta-six-66.vercel.app/",
+    image: "/images/portfolio.png",
+  },
+];
